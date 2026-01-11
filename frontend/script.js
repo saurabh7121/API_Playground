@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/profile'; // Adjust if your backend is on a different port
+const API_URL = 'https://api-playground-1.onrender.com/api/profile'; // Your deployed Render URL
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchProfile();

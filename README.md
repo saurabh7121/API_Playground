@@ -101,14 +101,14 @@ Assuming your backend is running on `http://localhost:3000`.
 ### Get Profile
 
 ```bash
-curl http://localhost:3000/api/profile
+curl https://api-playground-1.onrender.com/api/profile
 ```
 
 ### Create/Update Profile (using Postman or curl)
 
 This endpoint allows you to create a new profile or update an existing one. If a profile with the given `email` already exists, it will be updated; otherwise, a new one will be created.
 
-**Endpoint:** `POST http://localhost:3000/api/profile`
+**Endpoint:** `POST https://api-playground-1.onrender.com/api/profile`
 
 **Headers:**
 `Content-Type: application/json`
@@ -157,19 +157,19 @@ This endpoint allows you to create a new profile or update an existing one. If a
 ### Get Projects by Skill (e.g., Python)
 
 ```bash
-curl http://localhost:3000/api/profile/projects?skill=python
+curl https://api-playground-1.onrender.com/api/profile/projects?skill=python
 ```
 
 ### Get Top Skills
 
 ```bash
-curl http://localhost:3000/api/profile/skills/top
+curl https://api-playground-1.onrender.com/api/profile/skills/top
 ```
 
 ### Search Profile (e.g., for "Machine Learning")
 
 ```bash
-curl http://localhost:3000/api/profile/search?q=machine%20learning
+curl https://api-playground-1.onrender.com/api/profile/search?q=machine%20learning
 ```
 
 ## Known Limitations
@@ -180,5 +180,6 @@ curl http://localhost:3000/api/profile/search?q=machine%20learning
 - **Data Validation**: While Mongoose provides schema validation, more extensive input validation for API requests could be added.
 
 ## 💼 Resume
+
 📌 **[Download / View Resume](https://drive.google.com/file/d/1kBrjcFhcwWc93MVno_wATioECDcOGiq5/view?usp=sharing)**  
 _A concise overview of my skills, projects, and experience_

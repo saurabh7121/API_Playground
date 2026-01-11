@@ -8,6 +8,8 @@ The application is divided into two main parts:
 
 - **Backend (Node.js/Express.js/MongoDB)**: Provides RESTful API endpoints for managing and querying profile data.
 - **Frontend (Plain HTML/CSS/JavaScript)**: A simple web interface to display and search the profile information.
+  - **Deployed Frontend:** [https://api-playground-5uri.onrender.com/](https://api-playground-5uri.onrender.com/)
+- **Deployed Backend:** [https://api-playground-1.onrender.com/](https://api-playground-1.onrender.com/)
 
 ## Setup Instructions
 
